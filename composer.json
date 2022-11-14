@@ -3,7 +3,7 @@
     "description": "Production ready SDK for ThePower.io API",
     "keywords": ["thepower", "tp", "tpnode", "tpapi"],
     "type": "library",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "authors": [
         {
             "name": "Artur Khylskyi",
