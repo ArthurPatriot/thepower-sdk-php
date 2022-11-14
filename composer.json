@@ -1,0 +1,29 @@
+{
+    "name": "arthurpatriot/thepower-sdk",
+    "description": "Production ready SDK for ThePower.io API",
+    "keywords": ["thepower", "tp", "tpnode", "tpapi"],
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Artur Khylskyi",
+            "email": "arthur.patriot@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThePower\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
